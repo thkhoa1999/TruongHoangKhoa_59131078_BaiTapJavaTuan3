@@ -9,23 +9,20 @@ package BT1;
  *
  * @author Admin
  */
-public class Main1 {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Main1 
+{
     public static void main(String[] args) 
     {
-        context phepCong = new context();
-        context phepTru = new context();
-        context phepNhan = new context();
-        context phepChia = new context();
+        context Cong = new context();
+        context Tru = new context();
+        context Nhan = new context();
+        context Chia = new context();
         
-        phepCong.setTinhToan(new Cong());
-        System.out.println(phepCong.tinh(75, 12));
+        Cong.setTinhToan(new Cong());
+        System.out.println(Cong.tinh(75, 12));
         
-        phepTru.setTinhToan(new Tru());
-        System.out.println(phepTru.tinh(54, 78));
+        Tru.setTinhToan(new Tru());
+        System.out.println(Tru.tinh(54, 78));
         
 
     }

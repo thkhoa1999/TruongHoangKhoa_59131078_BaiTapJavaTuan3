@@ -9,11 +9,9 @@ package BT2;
  *
  * @author Admin
  */
-public class Main2 {
+public class Main2 
+{
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args)
     {
         HangHoa HH1 = new HangHoa("Máy bay đồ chơi", 900000, "JP");

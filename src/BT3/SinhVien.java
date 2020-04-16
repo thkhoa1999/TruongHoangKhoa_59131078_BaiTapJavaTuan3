@@ -64,8 +64,8 @@ public class SinhVien {
     }
     
     public String hienThiTT(){
-        return "+ Tên sinh viên: " + hoTen + "\n" +
-                "\t- Ngày sinh: " + ngaySinh + "\n" +
-                "\t- Điểm trung bình: " + diemTB;
+        return " Tên sinh viên: " + hoTen + "\n" +
+                "\tNgày sinh: " + ngaySinh + "\n" +
+                "\t Điểm trung bình: " + diemTB;
     }
 }
