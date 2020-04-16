@@ -48,8 +48,8 @@ public class HangHoa {
     }
     
     public String hienThiTT(){
-        return "+Tên hàng hoá: " + tenHH +
-                "\n\t-Giá : " + gia + " vnđ" +
-                "\n\t-Mô tả: " + moTa;
+        return "Tên hàng hoá: " + tenHH +
+                "\n\tGiá : " + gia + " vnđ" +
+                "\n\tMô tả: " + moTa;
     }
 }
