@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>TruongHoangKhoa_59131078_BaiTapJavaTuan3</name>
+            <name>TruongHoangKhoa_59131078_StrateryPattern</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
