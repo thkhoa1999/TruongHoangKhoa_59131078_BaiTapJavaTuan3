@@ -4,13 +4,11 @@
  * and open the template in the editor.
  */
 package BT3;
-
 /**
  *
- * @author Admin
- * @param <T>
- * 
+ * @author tophu
  */
-public interface ISoSanh<T>{
+public interface ISoSanh<T> 
+{
     public int soSanh(T o1, T o2);
 }

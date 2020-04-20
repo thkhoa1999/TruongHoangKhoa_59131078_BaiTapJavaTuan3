@@ -25,6 +25,7 @@ public class Main3 {
         qlsv1.them(SV2);
         qlsv1.them(SV3);
         qlsv1.sapXep();
+        System.out.println("\n Danh sách sinh viên sắp xếp theo điểm: ");
         qlsv1.inDS();
         
         
@@ -34,6 +35,7 @@ public class Main3 {
         qlsv2.them(SV2);
         qlsv2.them(SV3);
         qlsv2.sapXep();
+        System.out.println("\n Danh sách sinh viên sắp xếp theo tên: ");
         qlsv2.inDS();
         
     }

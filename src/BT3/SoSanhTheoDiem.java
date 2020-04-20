@@ -16,11 +16,11 @@ public class SoSanhTheoDiem implements ISoSanh<SinhVien>{
 
     @Override
     public int soSanh(SinhVien o1, SinhVien o2) {
-        float diem1 = o1.getDiemTB();
-        float diem2 = o2.getDiemTB();
-        if(diem1 < diem2)
+        float d1 = o1.getDiemTB();
+        float d2 = o2.getDiemTB();
+        if(d1 < d2)
             return -1;
-        else if(diem1 > diem2)
+        else if(d1 > d2)
             return 1;
         else
             return 0;
